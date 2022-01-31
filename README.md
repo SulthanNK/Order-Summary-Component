@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [SulthanNK/Order-Summary-Component](https://github.com/SulthanNK/Order-Summary-Component)
+- Live Site URL: [order-component-card.netlify.app](https://order-component-card.netlify.app)
 
 ## My process
 
