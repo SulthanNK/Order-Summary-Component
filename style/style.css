@@ -1,5 +1,23 @@
-body {
-  background: url('../assets/images/pattern-background-desktop.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --zircon: #f7f9ff;
+  --zumthor: #e0e8ff;
+  --cloud-burst: #1f2e55;
+  --persian-blue: #382ae1;
+  --bermuda-gray: #717fa6;
+  --cornflower-blue: #766cf1;
+
+  --font-redhat: 'Red Hat Display', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
 }
