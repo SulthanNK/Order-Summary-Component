@@ -125,3 +125,17 @@ body {
   margin: 32px 177px;
   padding-bottom: 48px;
 }
+
+.plan__changer:hover {
+  color: var(--cornflower-blue);
+  text-decoration: none;
+}
+
+.pay__button:hover {
+  background-color: var(--cornflower-blue);
+}
+
+.cancel__button:hover {
+  color: var(--cloud-burst);
+  text-decoration: none;
+}
