@@ -139,3 +139,66 @@ body {
   color: var(--cloud-burst);
   text-decoration: none;
 }
+
+@media screen and (max-width: 426px) {
+  body {
+    max-width: 375px;
+    background: url('../assets/images/pattern-background-mobile.svg');
+    background-color: var(--zumthor);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+
+  .card {
+    margin: 71px 24px;
+    width: 327px;
+  }
+
+  .hero__image {
+    width: 327px;
+    height: 160px;
+  }
+
+  .title {
+    font-size: 22px;
+    line-height: 29px;
+    margin: 32px 32px 0;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 16px 32px 0;
+  }
+
+  .plan__card {
+    margin: 24px 24px 0;
+    padding: 16px;
+  }
+
+  .price__card {
+    margin-right: 50px;
+  }
+
+  .plan__title,
+  .plan__price {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .plan__changer {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  .pay__button {
+    padding: 15px 64px;
+    margin: 24px;
+  }
+
+  .cancel__button {
+    margin: 24px 114px 0;
+    padding-bottom: 32px;
+  }
+}
