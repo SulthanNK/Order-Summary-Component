@@ -23,7 +23,7 @@
 }
 
 body {
-  max-width: 1440px;
+  max-width: 100%;
   background: url('../assets/images/pattern-background-desktop.svg');
   background-color: var(--zumthor);
   background-repeat: no-repeat;
@@ -100,6 +100,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
+  transition: all 0.5s ease;
 }
 
 .pay__button {
@@ -114,6 +115,7 @@ body {
   text-decoration: none;
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
   border-radius: 11px;
+  transition: all 0.5s ease;
 }
 
 .cancel__button {
@@ -124,6 +126,7 @@ body {
   line-height: 19px;
   margin: 32px 177px;
   padding-bottom: 48px;
+  transition: all 0.5s ease;
 }
 
 .plan__changer:hover {
@@ -142,7 +145,7 @@ body {
 
 @media screen and (max-width: 426px) {
   body {
-    max-width: 375px;
+    max-width: 100%;
     background: url('../assets/images/pattern-background-mobile.svg');
     background-color: var(--zumthor);
     background-repeat: no-repeat;
