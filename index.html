@@ -16,37 +16,39 @@
   </head>
 
   <body>
-    <div class="component-card">
-      <img
-        class="component-card__image"
-        src="./assets/images/illustration-hero.svg"
-        alt="A girl enjoying music from her handset in the background of cityscape"
-      />
-
-      <h2 class="component-card__title">Order Summary</h2>
-
-      <p class="component-card__description">
-        You can now listen to millions of songs, audio books, and podcasts on
-        any device anywhere you like!
-      </p>
-
-      <div class="price-card">
+    <main role="main">
+      <div class="component-card">
         <img
-          class="price-card__icon"
-          src="./assets/images/icon-music.svg"
-          alt="music icon"
+          class="component-card__image"
+          src="./assets/images/illustration-hero.svg"
+          alt="A girl enjoying music from her handset in the background of cityscape"
         />
 
-        <div class="price-card__holder">
-          <h5 class="price-card__title">Annual Plan</h5>
-          <p class="price-card__price">$59.99/year</p>
+        <h1 class="component-card__title">Order Summary</h1>
+
+        <p class="component-card__description">
+          You can now listen to millions of songs, audio books, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <div class="price-card">
+          <img
+            class="price-card__icon"
+            src="./assets/images/icon-music.svg"
+            alt="music icon"
+          />
+
+          <div class="price-card__holder">
+            <h2 class="price-card__title">Annual Plan</h2>
+            <p class="price-card__price">$59.99/year</p>
+          </div>
+
+          <a class="price-card__change" href="#">Change</a>
         </div>
 
-        <a class="price-card__change" href="#">Change</a>
+        <a class="button__proceed" href="">Proceed to Payment</a>
+        <a class="button__cancel" href="">Cancel Order</a>
       </div>
-
-      <a class="button__proceed" href="">Proceed to Payment</a>
-      <a class="button__cancel" href="">Cancel Order</a>
-    </div>
+    </main>
   </body>
 </html>
